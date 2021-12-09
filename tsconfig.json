@@ -1,0 +1,24 @@
+{    
+  "compilerOptions": {
+    "outDir": "dist",
+    "noEmitOnError": true,
+    "inlineSourceMap": true,
+    "target": "es6",
+    "module": "CommonJS",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "libs/*"
+      ]
+    }
+  },
+  "include": [
+    "src/*"
+  ]
+}
