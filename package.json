@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "ts-postgres": "^1.2.0"
+  }
+}
